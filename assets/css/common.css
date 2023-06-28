@@ -1,0 +1,19 @@
+.blind { 
+  position: absolute; width: 1px; height: 1px; 
+  overflow: hidden; clip: rect(0,0,0,0); margin: -1px; } 
+
+.common-inner {
+  width: 1152px;
+  margin: 0 auto;
+}
+
+/* ----- 기본 세팅 아이콘 ----- */
+header .search-area fieldset .btn-search,
+.group-info .qna,
+.sc-news .link-all,
+.inner3 > section .link-all,
+header .common-inner .logo .logo-box { background: url(../images/ic-set-common.png) no-repeat; } 
+
+/* ----- 서울시 SNS 아이콘 ----- */
+.group-sns .sns-list .sns-item a,
+.group-sns .sns-banner .sns-tit::after { background: url(../images/sns-list.png) no-repeat 0 0; width: 40px; height: 40px; display: block; } 
