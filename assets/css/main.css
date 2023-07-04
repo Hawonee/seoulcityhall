@@ -13,8 +13,12 @@
 .sc-visual .swiper .swiper-wrapper { width: 690px; } 
 .sc-visual .swiper a { display: block; } 
 .sc-visual .swiper .desc { position: absolute; left: 0; bottom: 0; width: 100%; line-height: 40px; padding-left: 10px; padding-right: 122px; background-color: rgba(0, 0, 0, 0.7); color: #fff; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; box-sizing: border-box; font-size: 14px; } 
-.sc-visual .control-area { position: absolute; bottom: 0; right: 0; z-index: 1; background: #f00; } 
-.sc-visual .control-area .fraction { width: auto; } 
+.sc-visual .control-area { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute; bottom: 10px; right: 0; z-index: 1; color: #fff;} 
+
 
 /* ----- 메인 사이드 ----- */
 .column-right { display: flex; flex-direction: column; justify-content: space-between; } 
